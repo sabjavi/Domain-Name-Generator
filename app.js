@@ -1,7 +1,7 @@
-let pronoun = ["the","our"];
-let adj = ["great", "big", "acid", "hungry"];
-let noun = ["jogger","racoon", "minimal", "micaela"];
-let domains = ["com","net","org","us", "es", "cl"];
+let pronoun = ["my","your","their","his","her"];
+let adj = ["blue", "funny", "sweet", "furious"];
+let noun = ["giraffe","train", "soul", "kamikaze"];
+let domains = ["com","net","org","us", "es", "cr"];
 const createDomains = () => {
     for (p in pronoun) {
         for (a in adj) {
